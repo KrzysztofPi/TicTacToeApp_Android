@@ -9,11 +9,12 @@ Gra Kółko i Krzyżyk rozgrywana jest na planszy składającej się z komórek 
 
 Wymagania funkcjonalne
 - uruchomienie gry
-- wpisanie nazwy użytkownika/założenie konta użytkownika
+- wpisanie nazwy użytkownika/email/hasla założenie konta użytkownika
 - interfejs nawiązywania połączenia pomiędzy graczami
 - pole gry (siatka 3x3)
 - koniec rozgrywki (podsumowanie)
 - statystyki gracza
+- ranking graczy
 
 Wymagania niefunkcjonalne
 - nawiązywanie połączenia pomiędzy graczami (Firebase)
