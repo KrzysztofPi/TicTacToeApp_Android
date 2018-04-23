@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.haresh.tic_tac_toe_app">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TwoDevice2P"
+            android:configChanges="orientation"
+            android:label="Two Player"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".one_player"
+            android:configChanges="orientation"
+            android:label="Select Level"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about"
+            android:configChanges="orientation"
+            android:label="About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".one_player_easy"
+            android:configChanges="orientation"
+            android:label="One Player (Easy)"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".one_player_difficult"
+            android:configChanges="orientation"
+            android:label="One Player (Hard)"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".two_player_selector"
+            android:configChanges="orientation"
+            android:label="Two Player Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".two_player_names"
+            android:configChanges="orientation"
+            android:label="Enter your Names"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".highscores2p"
+            android:configChanges="orientation"
+            android:label="High Scores"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BluetoothActivity" />
+        <activity android:name=".SingleDevice2P" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".TwoDevice2P_names"></activity>
+    </application>
+
+</manifest>
